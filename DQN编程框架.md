@@ -1,7 +1,11 @@
 # DQN的训练框架
 `
-def Train_DQN():
-    step = 0    # 用来控制什么时候学习
+
+  def Train_DQN():
+    
+    # 用来控制什么时候进行学习
+    step = 0
+
     for episode in range(300):
         # 初始化环境
         observation = env.reset()
